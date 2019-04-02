@@ -128,6 +128,10 @@ public class XestionAlumnos extends javax.swing.JFrame {
         DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
         
         model.addRow(fila);
+        
+        jTextField1.setText("");
+        jTextField2.setText("");
+        jComboBox1.setSelectedIndex(0);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
